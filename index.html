@@ -25,12 +25,12 @@
 
 <body class="bg-[#1a1a1a] text-white overflow-x-hidden">
 
-  <!-- ── NAV ── -->
+  
   <nav class="fixed top-0 left-0 right-0 z-50 bg-[#111]/90 backdrop-blur-md border-b border-white/5">
     <div class="flex justify-between items-center px-6 md:px-16 py-5">
       <div class="text-xl font-bold">Rama<span class="text-[#e91e8c]">.</span>KA</div>
 
-      <!-- Desktop menu -->
+      
       <ul class="hidden md:flex gap-8 list-none">
         <li><a href="#apropos" class="nav-link text-sm text-white/60 no-underline">À propos</a></li>
         <li><a href="#projets" class="nav-link text-sm text-white/60 no-underline">Projets</a></li>
@@ -39,7 +39,7 @@
         <li><a href="#contact-section" class="nav-link text-sm text-white/60 no-underline">Contact</a></li>
       </ul>
 
-      <!-- Hamburger -->
+      
       <button id="hamburger" class="md:hidden flex flex-col gap-1.5 p-2" onclick="toggleMenu()">
         <span class="w-6 h-0.5 bg-white block"></span>
         <span class="w-6 h-0.5 bg-white block"></span>
@@ -47,7 +47,7 @@
       </button>
     </div>
 
-    <!-- Mobile menu -->
+    
     <div id="mobile-menu" class="flex-col gap-4 px-6 pb-6 bg-[#111]">
       <a href="#apropos" class="nav-link text-sm text-white/60 no-underline" onclick="toggleMenu()">À propos</a>
       <a href="#projets" class="nav-link text-sm text-white/60 no-underline" onclick="toggleMenu()">Projets</a>
@@ -57,38 +57,40 @@
     </div>
   </nav>
 
-  <!-- ── HERO ── -->
+  
   <section class="gradient-hero min-h-screen flex items-center pt-28 pb-16 px-6 md:px-16">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20 items-center max-w-6xl mx-auto w-full">
 
-      <!-- Photo -->
+      
       <div class="relative flex justify-center md:justify-start">
         <img src="IMAGE/PP.jpeg" class="w-full max-w-[320px] md:max-w-[420px] rounded-3xl block shadow-2xl"/>
+        
         <div class="absolute -bottom-4 -right-4 md:-right-4 bg-[#e91e8c] text-white px-4 py-2 md:px-5 md:py-3 rounded-2xl text-xs md:text-sm font-semibold leading-snug shadow-lg">
-          🎓 Étudiante en<br>Management &<br>Technologies Numériques
+          🎓 Candidate au Master MIO<br>Université Assane SECK<br>de Ziguinchor
         </div>
       </div>
 
-      <!-- Texte -->
+      
       <div class="mt-8 md:mt-0">
         <p class="text-[#e91e8c] text-xs tracking-widest uppercase mb-4">Portfolio 2026</p>
         <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-4">
           Rama <span class="text-[#e91e8c]">KA</span>
         </h1>
         <p class="text-lg md:text-xl font-semibold text-white/80 mb-5">Étudiante en Management & Technologies Numériques</p>
+        
         <p class="text-[14px] md:text-[15px] text-white/55 leading-relaxed mb-8 max-w-lg">
-          Étudiante en <strong class="text-white/80">L3 Management Informatisé des Organisations</strong> à l'Université Assane SECK de Ziguinchor. En formation <strong class="text-white/80">Fullstack JavaScript & DevOps</strong> à Bakeli, je m'intéresse à la <strong class="text-white/80">transformation numérique</strong> et l'<strong class="text-white/80">informatique décisionnelle</strong>.
+          Titulaire d'une <strong class="text-white/80">Licence en Management Informatisé des Organisations</strong> à l'Université Assane SECK de Ziguinchor. En formation <strong class="text-white/80">Fullstack JavaScript & DevOps</strong> à Bakeli, je souhaite intégrer le <strong class="text-white/80">Master MIO</strong> pour exercer des fonctions à responsabilité dans le domaine des <strong class="text-white/80">systèmes d'information</strong>.
         </p>
         <div class="flex gap-3 flex-wrap">
           <a href="#contact-section" class="btn-pink text-white px-6 md:px-8 py-3 rounded-full text-sm font-semibold no-underline">Me contacter</a>
           <a href="#projets" class="btn-outline text-white px-6 md:px-8 py-3 rounded-full text-sm font-semibold no-underline">Voir mes projets</a>
-          <a href="Doc/CV_Rama_KA PS .pdf" download="CV_Rama_KA.pdf" class="btn-outline text-white px-6 md:px-8 py-3 rounded-full text-sm font-semibold no-underline">📄 Mon CV</a>
+          <a href="Doc/CV_Rama_KA_MIO.pdf" download="CV_Rama_KA.pdf" class="btn-outline text-white px-6 md:px-8 py-3 rounded-full text-sm font-semibold no-underline">📄 Mon CV</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ── STATS ── -->
+  
   <div class="bg-[#111] border-t border-b border-white/5 py-10 flex flex-wrap justify-center gap-10 md:gap-20 px-6">
     <div class="text-center">
       <p class="text-4xl font-bold text-[#e91e8c]">6</p>
@@ -104,7 +106,7 @@
     </div>
   </div>
 
-  <!-- ── À PROPOS ── -->
+  
   <section class="py-16 md:py-24 px-6 md:px-16 max-w-6xl mx-auto" id="apropos">
     <p class="flex items-center gap-3 text-[11px] tracking-widest uppercase text-[#e91e8c] mb-4 before:content-[''] before:w-5 before:h-0.5 before:bg-[#e91e8c]">À propos</p>
     <h2 class="text-3xl md:text-4xl font-bold mb-10 md:mb-12">Qui suis-<span class="text-[#e91e8c]">je</span> ?</h2>
@@ -119,9 +121,10 @@
           <div class="w-9 h-9 rounded-lg bg-[#e91e8c]/15 flex items-center justify-center text-lg shrink-0">📍</div>
           <div><p class="text-[11px] text-white/35 uppercase tracking-wide">Localisation</p><p class="text-sm font-medium">Dakar, Sénégal</p></div>
         </div>
+        
         <div class="flex gap-3 items-center">
           <div class="w-9 h-9 rounded-lg bg-[#e91e8c]/15 flex items-center justify-center text-lg shrink-0">🎓</div>
-          <div><p class="text-[11px] text-white/35 uppercase tracking-wide">Niveau actuel</p><p class="text-sm font-medium">Licence 3 MIO (en cours)</p></div>
+          <div><p class="text-[11px] text-white/35 uppercase tracking-wide">Niveau actuel</p><p class="text-sm font-medium">Licence MIO — obtenue 2025</p></div>
         </div>
         <div class="flex gap-3 items-center">
           <div class="w-9 h-9 rounded-lg bg-[#e91e8c]/15 flex items-center justify-center text-lg shrink-0">🏫</div>
@@ -135,15 +138,16 @@
           <div class="w-9 h-9 rounded-lg bg-[#e91e8c]/15 flex items-center justify-center text-lg shrink-0">🇬🇧</div>
           <div><p class="text-[11px] text-white/35 uppercase tracking-wide">Anglais</p><p class="text-sm font-medium">En renforcement — SUNY Old Westbury, NY</p></div>
         </div>
+        
         <div class="flex gap-3 items-center">
           <div class="w-9 h-9 rounded-lg bg-[#e91e8c]/15 flex items-center justify-center text-lg shrink-0">🎯</div>
-          <div><p class="text-[11px] text-white/35 uppercase tracking-wide">Objectif</p><p class="text-sm font-medium">Data Analyst — Informatique décisionnelle</p></div>
+          <div><p class="text-[11px] text-white/35 uppercase tracking-wide">Objectif</p><p class="text-sm font-medium">Responsable SI / Consultant en management numérique</p></div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ── PROJETS ── -->
+
   <section class="bg-[#111] border-t border-b border-white/5 py-16 md:py-24 px-6 md:px-16" id="projets">
     <div class="max-w-6xl mx-auto">
       <p class="flex items-center gap-3 text-[11px] tracking-widest uppercase text-[#e91e8c] mb-4 before:content-[''] before:w-5 before:h-0.5 before:bg-[#e91e8c]">Réalisations</p>
@@ -196,7 +200,7 @@
     </div>
   </section>
 
-  <!-- ── PROJETS BAKELI ── -->
+  
   <section class="py-16 md:py-24 px-6 md:px-16" id="bakeli">
     <div class="max-w-6xl mx-auto">
       <p class="flex items-center gap-3 text-[11px] tracking-widest uppercase text-[#e91e8c] mb-4 before:content-[''] before:w-5 before:h-0.5 before:bg-[#e91e8c]">Formation Bakeli</p>
@@ -250,7 +254,7 @@
     </div>
   </section>
 
-  <!-- ── COMPÉTENCES ── -->
+  
   <section class="py-16 md:py-24 px-6 md:px-16 max-w-6xl mx-auto" id="competences">
     <p class="flex items-center gap-3 text-[11px] tracking-widest uppercase text-[#e91e8c] mb-4 before:content-[''] before:w-5 before:h-0.5 before:bg-[#e91e8c]">Savoir-faire</p>
     <h2 class="text-3xl md:text-4xl font-bold mb-10 md:mb-12">Mes <span class="text-[#e91e8c]">compétences</span></h2>
@@ -290,7 +294,7 @@
     </div>
   </section>
 
-  <!-- ── CERTIFICATIONS ── -->
+  
   <section class="bg-[#111] border-t border-white/5 py-16 md:py-24 px-6 md:px-16" id="certifications">
     <div class="max-w-6xl mx-auto">
       <p class="flex items-center gap-3 text-[11px] tracking-widest uppercase text-[#e91e8c] mb-4 before:content-[''] before:w-5 before:h-0.5 before:bg-[#e91e8c]">Documents officiels</p>
@@ -341,7 +345,7 @@
     </div>
   </section>
 
-  <!-- ── CONTACT ── -->
+  
   <section class="gradient-contact py-20 md:py-28 px-6 md:px-16 text-center" id="contact-section">
     <h2 class="text-3xl md:text-5xl font-bold mb-4">Travaillons <span class="text-[#e91e8c]">ensemble</span></h2>
     <p class="text-white/40 text-base mb-10 md:mb-12">Disponible pour tout échange ou opportunité.</p>
@@ -352,10 +356,11 @@
     </div>
   </section>
 
+  
   <footer class="bg-[#0a0a0a] border-t border-white/5 py-8 md:py-10 px-6 md:px-16">
     <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-2 text-xs text-white/20 text-center md:text-left">
       <p>© 2026 Rama KA — Tous droits réservés</p>
-      <p>Étudiante en L3 MIO · Université Assane SECK de Ziguinchor · Formation Bakeli</p>
+      <p>Titulaire d'une Licence MIO · Candidate au Master MIO — UASZ · Formation Bakeli</p>
     </div>
   </footer>
 
